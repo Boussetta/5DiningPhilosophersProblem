@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-CDC-D7509-0" type ="http://www.laas.fr/tina/tpn">
+  <name>
+   <text>Five Dining Philosophers Problem</text>
+  </name>
+ <page id="g-CDC-D7529-1">
+  <place id="p-CDC-D7531-2">
+  <name>
+   <text>p10</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>Thinking</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="550" y="355"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D7592-3">
+  <name>
+   <text>p11</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>Eating</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="635" y="550"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D75A4-4">
+  <name>
+   <text>p12</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>Thinking</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="505" y="505"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D75B2-5">
+  <name>
+   <text>p13</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>Eating</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="200" y="560"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D75C2-6">
+  <name>
+   <text>p14</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>Thinking</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="320" y="505"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D75D0-7">
+  <name>
+   <text>p15</text>
+    <graphics>
+     <offset x="10" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>Fork</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="350" y="320"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D75DF-8">
+  <name>
+   <text>p16</text>
+    <graphics>
+     <offset x="-10" y="10" />
+    </graphics>
+  </name>
+   <label>
+    <text>Fork</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="470" y="320"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D75EE-9">
+  <name>
+   <text>p17</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>Fork</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="515" y="425"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D75FC-10">
+  <name>
+   <text>p18</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>Fork</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="315" y="425"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D760A-11">
+  <name>
+   <text>p19</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>Fork</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="415" y="490"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D7618-12">
+  <name>
+   <text>p4</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>Thinking</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="280" y="355"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D76F6-13">
+  <name>
+   <text>p5</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>Eating</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="160" y="295"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D7706-14">
+  <name>
+   <text>p7</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>Eating</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="400" y="135"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D7714-15">
+  <name>
+   <text>p8</text>
+    <graphics>
+     <offset x="-10" y="0" />
+    </graphics>
+  </name>
+   <label>
+    <text>Thinking</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+   </label>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+   <graphics>
+    <position x="400" y="255"/>
+   </graphics>
+  </place>
+  <place id="p-CDC-D7721-16">
+  <name>
+   <text>p9</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <label>
+    <text>Eating</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+   </label>
+   <graphics>
+    <position x="680" y="295"/>
+   </graphics>
+  </place>
+  <transition id="t-CDC-D772F-17">
+  <name>
+   <text>t10</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="705" y="575"/>
+   </graphics>
+  </transition>
+  <transition id="t-CDC-D773D-18">
+  <name>
+   <text>t11</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="570" y="530"/>
+   </graphics>
+  </transition>
+  <transition id="t-CDC-D7749-19">
+  <name>
+   <text>t12</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="135" y="585"/>
+   </graphics>
+  </transition>
+  <transition id="t-CDC-D7753-20">
+  <name>
+   <text>t13</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="260" y="530"/>
+   </graphics>
+  </transition>
+  <transition id="t-CDC-D775F-21">
+  <name>
+   <text>t4</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="220" y="325"/>
+   </graphics>
+  </transition>
+  <transition id="t-CDC-D7768-22">
+  <name>
+   <text>t5</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="100" y="260"/>
+   </graphics>
+  </transition>
+  <transition id="t-CDC-D7774-23">
+  <name>
+   <text>t6</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="400" y="70"/>
+   </graphics>
+  </transition>
+  <transition id="t-CDC-D777E-24">
+  <name>
+   <text>t7</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="400" y="195"/>
+   </graphics>
+  </transition>
+  <transition id="t-CDC-D7789-25">
+  <name>
+   <text>t8</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="750" y="265"/>
+   </graphics>
+  </transition>
+  <transition id="t-CDC-D7793-26">
+  <name>
+   <text>t9</text>
+    <graphics>
+     <offset x="0" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="620" y="320"/>
+   </graphics>
+  </transition>
+  <arc id="e-CDC-D77AD-27" source="p-CDC-D7618-12" target="t-CDC-D775F-21">
+  </arc>
+  <arc id="e-CDC-D791B-28" source="t-CDC-D7793-26" target="p-CDC-D7721-16">
+  </arc>
+  <arc id="e-CDC-D7921-29" source="p-CDC-D7721-16" target="t-CDC-D7789-25">
+  </arc>
+  <arc id="e-CDC-D7924-30" source="t-CDC-D7789-25" target="p-CDC-D7531-2">
+   <graphics>
+    <position x="784" y="213" />
+    <position x="492" y="339" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D796E-31" source="p-CDC-D75A4-4" target="t-CDC-D773D-18">
+  </arc>
+  <arc id="e-CDC-D7973-32" source="t-CDC-D773D-18" target="p-CDC-D7592-3">
+  </arc>
+  <arc id="e-CDC-D7976-33" source="p-CDC-D7592-3" target="t-CDC-D772F-17">
+  </arc>
+  <arc id="e-CDC-D7A13-34" source="t-CDC-D772F-17" target="p-CDC-D75A4-4">
+   <graphics>
+    <position x="755" y="558" />
+    <position x="471" y="458" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7A29-35" source="p-CDC-D75C2-6" target="t-CDC-D7753-20">
+  </arc>
+  <arc id="e-CDC-D7A2C-36" source="t-CDC-D7753-20" target="p-CDC-D75B2-5">
+  </arc>
+  <arc id="e-CDC-D7A30-37" source="p-CDC-D75B2-5" target="t-CDC-D7749-19">
+  </arc>
+  <arc id="e-CDC-D7A31-38" source="t-CDC-D775F-21" target="p-CDC-D76F6-13">
+  </arc>
+  <arc id="e-CDC-D7A34-39" source="t-CDC-D7749-19" target="p-CDC-D75C2-6">
+   <graphics>
+    <position x="98" y="644" />
+    <position x="387" y="501" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7A44-40" source="p-CDC-D75DF-8" target="t-CDC-D7793-26">
+   <graphics>
+    <position x="502" y="294" />
+    <position x="596" y="279" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7A56-41" source="p-CDC-D75EE-9" target="t-CDC-D7793-26">
+   <graphics>
+    <position x="564" y="406" />
+    <position x="616" y="352" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7A66-42" source="p-CDC-D75EE-9" target="t-CDC-D773D-18">
+   <graphics>
+    <position x="552" y="455" />
+    <position x="585" y="503" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7A78-43" source="p-CDC-D760A-11" target="t-CDC-D773D-18">
+   <graphics>
+    <position x="442" y="534" />
+    <position x="561" y="553" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7A87-44" source="p-CDC-D760A-11" target="t-CDC-D7753-20">
+   <graphics>
+    <position x="371" y="536" />
+    <position x="287" y="544" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7A9C-45" source="p-CDC-D75FC-10" target="t-CDC-D7753-20">
+   <graphics>
+    <position x="280" y="449" />
+    <position x="257" y="504" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7AAD-46" source="p-CDC-D75FC-10" target="t-CDC-D775F-21">
+   <graphics>
+    <position x="265" y="406" />
+    <position x="223" y="353" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7ABD-47" source="p-CDC-D75D0-7" target="t-CDC-D775F-21">
+   <graphics>
+    <position x="318" y="302" />
+    <position x="246" y="303" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7ACE-48" source="p-CDC-D75D0-7" target="t-CDC-D777E-24">
+   <graphics>
+    <position x="353" y="272" />
+    <position x="372" y="208" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7ADD-49" source="p-CDC-D76F6-13" target="t-CDC-D7768-22">
+  </arc>
+  <arc id="e-CDC-D7AE0-50" source="p-CDC-D75DF-8" target="t-CDC-D777E-24">
+   <graphics>
+    <position x="459" y="274" />
+    <position x="434" y="208" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7AF1-51" source="t-CDC-D7789-25" target="p-CDC-D75EE-9">
+   <graphics>
+    <position x="733" y="352" />
+    <position x="588" y="412" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7B00-52" source="t-CDC-D7789-25" target="p-CDC-D75DF-8">
+   <graphics>
+    <position x="646" y="208" />
+    <position x="510" y="267" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7B12-53" source="t-CDC-D7774-23" target="p-CDC-D75DF-8">
+   <graphics>
+    <position x="460" y="68" />
+    <position x="502" y="244" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7B21-54" source="t-CDC-D7774-23" target="p-CDC-D75D0-7">
+   <graphics>
+    <position x="329" y="79" />
+    <position x="314" y="259" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7B31-55" source="t-CDC-D7768-22" target="p-CDC-D75D0-7">
+   <graphics>
+    <position x="148" y="229" />
+    <position x="285" y="267" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7B41-56" source="t-CDC-D772F-17" target="p-CDC-D75EE-9">
+   <graphics>
+    <position x="702" y="508" />
+    <position x="576" y="440" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7B50-57" source="t-CDC-D772F-17" target="p-CDC-D760A-11">
+   <graphics>
+    <position x="655" y="605" />
+    <position x="463" y="534" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7B60-58" source="t-CDC-D7749-19" target="p-CDC-D760A-11">
+   <graphics>
+    <position x="208" y="603" />
+    <position x="381" y="565" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7B70-59" source="t-CDC-D7749-19" target="p-CDC-D75FC-10">
+   <graphics>
+    <position x="141" y="541" />
+    <position x="233" y="450" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7BA5-60" source="t-CDC-D7768-22" target="p-CDC-D7618-12">
+   <graphics>
+    <position x="30" y="260" />
+    <position x="308" y="409" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7BB7-61" source="t-CDC-D7768-22" target="p-CDC-D75FC-10">
+   <graphics>
+    <position x="107" y="338" />
+    <position x="249" y="411" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7BC8-62" source="p-CDC-D7714-15" target="t-CDC-D777E-24">
+  </arc>
+  <arc id="e-CDC-D7BCA-63" source="t-CDC-D777E-24" target="p-CDC-D7706-14">
+  </arc>
+  <arc id="e-CDC-D7BCD-64" source="p-CDC-D7706-14" target="t-CDC-D7774-23">
+  </arc>
+  <arc id="e-CDC-D7BCF-65" source="t-CDC-D7774-23" target="p-CDC-D7714-15">
+   <graphics>
+    <position x="365" y="22" />
+    <position x="365" y="295" />
+   </graphics>  </arc>
+  <arc id="e-CDC-D7BDE-66" source="p-CDC-D7531-2" target="t-CDC-D7793-26">
+  </arc>
+ </page>
+ </net>
+</pnml>
